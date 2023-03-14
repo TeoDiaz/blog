@@ -12,6 +12,7 @@ defmodule BlogWeb.HomeLive.PostCard do
         <%= @description %>
       </p>
       <h4 class="mb-1 text-sm font-semibold text-purple-700"><%= @tag %></h4>
+      <h4 class="mt-1 text-sm font-semibold text-black"><%= @date %></h4>
     </div>
     """
   end

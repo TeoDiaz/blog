@@ -7,30 +7,34 @@ defmodule BlogWeb.HomeLive do
       title: "What is console.log(\"Hello World\")?",
       tag: "personal",
       description: "Let's start from the beginning",
-      img_name: "hello_world"
+      img_name: "hello_world",
+      date: "22-08-2018"
     },
     %{
       id: "dare",
       title: "To improve, you have to dare",
       tag: "personal",
-      description: "This is my second day becoming a software engineer",
-      img_name: "way"
+      description: "How things started to happen",
+      img_name: "way",
+      date: "26-08-2018"
     },
     %{
       id: "pre_work",
       title: "Pre-Work and day -1",
       tag: "personal",
-      description: "This is my second day becoming a software engineer",
-      img_name: "day1_retiro"
+      description: "My new team, my new goal",
+      img_name: "day1_retiro",
+      date: "26-08-2018"
     },
     %{
       id: "first_week",
       title: "The first week of the rest of my life",
       tag: "personal",
-      description: "This is my second day becoming a software engineer",
-      img_name: "vikings"
+      description: "All the things I'm learning",
+      img_name: "vikings",
+      date: "28-08-2018"
     }
-  ]
+  ] |> Enum.reverse()
 
   @impl LiveView
   def mount(_params, _session, socket) do
@@ -65,6 +69,7 @@ defmodule BlogWeb.HomeLive do
                 tag={blog.tag}
                 description={blog.description}
                 img_name={blog.img_name}
+                date={blog.date}
               />
             </.link>
           <% end %>

@@ -20,7 +20,9 @@ His wife.
 
 That lady who prepared his food, did the laundry, and went to the market while he spent hours and hours researching... Her sacrifice was never rewarded.
 
-And this leads me to... there are not one but two great women behind my life change.
+---
+
+There are not one but two great women behind my life change.
 
 My wife, who made me change my mind, supports me every step of the way, and on top of that, after the countless hours I spend studying at Ironhack, she works when she can in her small business, takes care of our child, and is pregnant with our next daughter! Even I am amazed... Does anyone doubt that she is a great woman? Besides, I owe it to her to be who I am and where I am.
 
