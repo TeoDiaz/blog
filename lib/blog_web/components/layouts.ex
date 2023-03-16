@@ -8,11 +8,11 @@ defmodule BlogWeb.Layouts do
     <header class="flex items-center justify-between py-8 px-[10%] mt-2">
       <nav>
         <ul class="">
-          <li class="inline-block py-0 px-5"><a class="no-underline" href="/" class="underline">Posts</a></li>
+          <li class="inline-block py-0 px-5"><a class="no-underline" href="/">Posts</a></li>
           <li class="inline-block py-0 px-5">
-            <a class="no-underline" href="#" class="underline">Projects</a>
+            <a class="no-underline" href="#">Projects</a>
           </li>
-          <li class="inline-block py-0 px-5"><a class="no-underline" href="#" class="underline">About</a></li>
+          <li class="inline-block py-0 px-5"><a class="no-underline" href="#">About</a></li>
         </ul>
       </nav>
       <a href="#" class="no-underline">Contact</a>
